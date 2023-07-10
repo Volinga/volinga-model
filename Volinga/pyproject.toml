@@ -1,0 +1,17 @@
+[project]
+name="volinga"
+version="0.2.0"
+
+dependencies=[
+    "nerfstudio",
+    "torchtyping"
+]
+
+[tool.setuptools.packages.find]
+include = ["volinga*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+volinga = 'volinga.volinga_config:volinga_method'
+
+[project.scripts]
+volinga-preview = 'volinga.volinga_render:entrypoint'
