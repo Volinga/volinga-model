@@ -15,10 +15,11 @@ from nerfstudio.engine.optimizers import AdamOptimizerConfig
 from nerfstudio.engine.trainer import TrainerConfig
 from nerfstudio.models.nerfacto import NerfactoModelConfig
 from nerfstudio.pipelines.base_pipeline import VanillaPipelineConfig
-
+from volinga.volinga_base_config import WandbConfig
+from volinga.volinga_trainer import VolingaTrainerConfig
 
 volinga_method = MethodSpecification(
-    TrainerConfig(
+    VolingaTrainerConfig(
         method_name="volinga",
         steps_per_eval_batch=500,
         steps_per_save=2000,
@@ -56,6 +57,7 @@ volinga_method = MethodSpecification(
             },
         },
         viewer=ViewerConfig(num_rays_per_chunk=1 << 15),
+        wandb=WandbConfig(run_id=None),
         vis="viewer",
     ),
     description="Real-time rendering model from Volinga. Directly exportable to NVOL format at https://volinga.ai/"
