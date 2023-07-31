@@ -1,3 +1,8 @@
+<p align="center">
+    <!-- community badges -->
+    <a href="https://discord.gg/XxVdfWvcge"><img src="https://img.shields.io/badge/Join-Discord-blue.svg"/></a>
+</p>
+
 # Volinga
 Volinga model is a modification of Nerfacto that allows the conversion to NVOL file, that can be rendered in Unreal Engine.
 
