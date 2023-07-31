@@ -3,6 +3,17 @@
     <a href="https://discord.gg/XxVdfWvcge"><img src="https://img.shields.io/badge/Join-Discord-blue.svg"/></a>
 </p>
 
+<p align="center">
+    <!-- pypi-strip -->
+    <picture>
+    <img alt="nerfstudio" src="https://volinga.ai/assets/logop3.677b6dd7.svg" width="400">
+    <!-- pypi-strip -->
+    </picture>
+    <!-- /pypi-strip -->
+</p>
+
+<img src="https://volinga.ai/assets/volinga-nstudio4m.cba70be6.mp4" width="52%"/> 
+
 # Volinga
 Volinga model is a modification of Nerfacto that allows the conversion to NVOL file, that can be rendered in Unreal Engine.
 
