@@ -91,13 +91,13 @@ ns-train -h
 ```
 
 # Using Volinga
-Now that Volinga is installed, you can unleash the power of NeRF in virtual production:
+Now that Volinga is installed, you can unleash the power of NeRF:
 ```bash
 ns-train volinga --data /path/to/your/data --vis viewer
 ```
 
 ## Previsualization
-You can do a previsualization of the NeRF by using:
+You can generate a previsualization video of you Volinga NeRF by using:
 
 ```bash
 volinga-preview --output-format [images, video] --load-config path/or/your/config/config.yml --traj interpolate --eval-num-rays-per-chunk [int] --output-path /output/path --order_poses --adjust_frame_rate
