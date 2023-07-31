@@ -60,7 +60,7 @@ in the Installation documentation for more.
 
 ### 1.2. Install nerfstudio
 
-You can now install :
+You can now install nerfstudio v0.3.2 using the following command:
 
 ```bash
 pip install nerfstudio==0.3.2
