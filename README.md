@@ -1,21 +1,18 @@
-<p align="center">
-    <!-- community badges -->
-    <a href="https://discord.gg/XxVdfWvcge"><img src="https://img.shields.io/badge/Join-Discord-blue.svg"/></a>
-</p>
 
 <p align="center">
     <!-- pypi-strip -->
     <picture>
-    <img alt="nerfstudio" src="https://volinga.ai/assets/logop3.677b6dd7.svg" width="400">
+    <img alt="Volinga" src="https://volinga.ai/early_access/Volinga%20Suite%20-%20User%20Manual%206d1d5b9c2a2046829b2e2cbe16d112f8/MicrosoftTeams-image_(73).png">
     <!-- pypi-strip -->
     </picture>
     <!-- /pypi-strip -->
+    <a href="https://discord.gg/XxVdfWvcge"><img src="https://img.shields.io/badge/Join-Discord-blue.svg"/></a>
 </p>
 
-<img src="https://volinga.ai/assets/volinga-nstudio4m.cba70be6.mp4" width="52%"/> 
+# About
+Volinga's vision is to enable the use of Neural Radiance Fields for any use case by providing the first platform for frictionless creation and native rendering in 3D engines. This repo provides an extension to nerfstudio, implementing volinga model, a modification of Nerfacto that allows the conversion to NVOL file, that can be rendered in Unreal Engine.
 
-# Volinga
-Volinga model is a modification of Nerfacto that allows the conversion to NVOL file, that can be rendered in Unreal Engine.
+Log in to unleash the power of NeRF into Unreal Engine: https://volinga.ai/
 
 # Installation
 Volinga follows the integration described in [Nerfstudio](https://docs.nerf.studio/en/latest/developer_guides/new_methods.html) for custom methods.
