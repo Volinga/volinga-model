@@ -74,7 +74,7 @@ git clone https://github.com/Volinga/volinga-model
 ## 3. Install Volinga repo as a python package
 
 ```bash
-cd volinga_model
+cd volinga-model
 pip install -e .
 ```
 
