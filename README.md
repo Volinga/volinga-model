@@ -102,3 +102,27 @@ You can generate a previsualization video of you Volinga NeRF by using:
 ```bash
 volinga-preview --output-format [images, video] --load-config path/or/your/config/config.yml --traj interpolate --eval-num-rays-per-chunk [int] --output-path /output/path --order_poses --adjust_frame_rate
 ```
+## 6. Volinga installer for Windows
+The file volinga-repo-installer.bat will install all the dependencies required by Volinga. This includes Cuda 11.8, git, python3 and python packages.
+
+### 6.1 Arguments
+there are three arguments:
+
+- -windows10 : To install dependencies for windows10
+
+- -windows11: To install dependencies for windows11
+
+- -setPath: To set required dependencies from Nerfstudio to the environmental variable PATH.* 
+
+*The argument -setPath should only be used in the first execution as the installer does not check if the PATH has already been set, so it can add duplicated paths to the variable.
+
+### 6.2 Examples
+
+- To install it in Windows 11 it would be:
+```bash
+.\volinga-repo-installer.bat -windows11 -setPath
+```
+- To install it in Windows 10:
+```bash
+.\volinga-repo-installer.bat -windows10 -setPath
+```
