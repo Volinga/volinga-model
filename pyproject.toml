@@ -3,7 +3,7 @@ name="volinga"
 version="0.2.0"
 
 dependencies=[
-    "nerfstudio",
+    "nerfstudio==0.3.3",
     "torchtyping"
 ]
 
